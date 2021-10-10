@@ -1,0 +1,29 @@
+.main-nav {
+  margin-top: 10px;
+  list-style-type: none;
+  padding-left: 0;
+  background-color: cadetblue;
+}
+.main-nav__item {
+  display: inline-block;
+}
+.main-nav__item a {
+  text-decoration: none;
+  color: black;
+  border-radius: 2px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.main-nav__item a:hover {
+  color: blue;
+}
+.main-nav__item a:active {
+  color: red;
+}
+
+.main-nav__item a::after {
+  content: "||";
+}
+.main-nav__item a::before {
+  content: "||";
+}
